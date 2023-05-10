@@ -10,7 +10,9 @@ concurrency: 4
 tunnel: true
 pre:
   - npm install
+  - npm install -g forever
   - npx playwright install
+  - npm run build forever
 cacheDirectories:
     - node_modules
 cacheKey: '{{ checksum "package-lock.json" }}'
