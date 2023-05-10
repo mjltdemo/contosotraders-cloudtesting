@@ -19,9 +19,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Starting CLI testing
-        env:
-          LT_USERNAME: ${{ secrets.LT_USERNAME }}
-          LT_ACCESS_KEY: ${{ secrets.LT_ACCESS_KEY }}
         shell: bash
         run: |
           echo "STEP 1 ) Downloading sample suite"
@@ -29,6 +26,4 @@ jobs:
           echo "STEP 2) Download CLI and setting environment variables"
               cd src/ContosoTraders.Ui.Website
               curl https://downloads.lambdatest.com/hyperexecute/windows/hyperexecute.exe -o hyperexecute.exe
-              echo $LT_USERNAME 
-              echo $LT_ACCESS_KEY
-              ./hyperexecute --user $LT_USERNAME --key $LT_ACCESS_KEY --config hyperExecute.yaml
+            ./hyperexecute --user gagandeepb --key wzgRUvmhiGodczTuOWhY0IkITni78467mDrYTFzbFwAMlMqaO7  --config hyperExecute.yaml
