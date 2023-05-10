@@ -12,7 +12,8 @@ tunnelOpts:
   global: true
 pre:
   - npm install
-  - npx playwright install  
+  - npx playwright install
+  - npm run start
 cacheDirectories:
     - node_modules
 cacheKey: '{{ checksum "package-lock.json" }}'
