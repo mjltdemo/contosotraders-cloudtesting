@@ -9,8 +9,8 @@ autosplit: true
 concurrency: 3
 pre:
   - npm install
+  - npm run build
   - npx playwright install
-  - npm run start
 cacheDirectories:
     - node_modules
 cacheKey: '{{ checksum "package-lock.json" }}'
