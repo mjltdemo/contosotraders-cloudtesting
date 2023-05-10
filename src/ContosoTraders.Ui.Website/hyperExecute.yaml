@@ -8,9 +8,6 @@ maxRetries: 1
 autosplit: true
 concurrency: 3
 tunnel: true
-
-tunnelOpts:
-  global: true
 pre:
   - npm install
   - npx playwright install
