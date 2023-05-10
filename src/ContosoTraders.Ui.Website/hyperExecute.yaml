@@ -13,6 +13,8 @@ pre:
   - npm install -g forever
   - npx playwright install
   - npm run build forever
+  - npm install -g serve
+  - serve -s build
 cacheDirectories:
     - node_modules
 cacheKey: '{{ checksum "package-lock.json" }}'
