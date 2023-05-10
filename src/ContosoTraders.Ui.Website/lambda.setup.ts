@@ -20,7 +20,6 @@ const capabilities = {
     network: true,
     video: true,
     console: true,
-   // Optional
     geoLocation: "", // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
   },
 };
