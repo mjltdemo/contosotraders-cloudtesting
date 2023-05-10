@@ -6,7 +6,7 @@ runson: win
 retryOnFailure: true
 maxRetries: 1
 autosplit: true
-concurrency: 3
+concurrency: 4
 tunnel: true
 tunnelOpts:
   global: true
