@@ -1,0 +1,87 @@
+******************* npm install *******************
+npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but package-lock.json was generated for lockfileVersion@2. I'll try to do my best with it!
+
+> playwright@1.33.0 install D:\foreman\ContosoTraders.Ui.Website\node_modules\playwright
+> node install.js
+
+Downloading Chromium 113.0.5672.53 (playwright build v1060)[2m from https://playwright.azureedge.net/builds/chromium/1060/chromium-win64.zip[22m
+|                                                                                |   0% of 113.5 Mb
+|■■■■■■■■                                                                        |  10% of 113.5 Mb
+|■■■■■■■■■■■■■■■■                                                                |  20% of 113.5 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 113.5 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 113.5 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 113.5 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 113.5 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 113.5 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 113.5 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 113.5 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 113.5 Mb
+Chromium 113.0.5672.53 (playwright build v1060) downloaded to C:\Users\ltuser.ghtestVM\AppData\Local\ms-playwright\chromium-1060
+Downloading FFMPEG playwright build v1008[2m from https://playwright.azureedge.net/builds/ffmpeg/1008/ffmpeg-win64.zip[22m
+|                                                                                |   1% of 1.4 Mb
+|■■■■■■■■                                                                        |  10% of 1.4 Mb
+|■■■■■■■■■■■■■■■■                                                                |  20% of 1.4 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 1.4 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 1.4 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 1.4 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 1.4 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 1.4 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 1.4 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 1.4 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 1.4 Mb
+FFMPEG playwright build v1008 downloaded to C:\Users\ltuser.ghtestVM\AppData\Local\ms-playwright\ffmpeg-1008
+Downloading Firefox 112.0 (playwright build v1403)[2m from https://playwright.azureedge.net/builds/firefox/1403/firefox-win64.zip[22m
+|                                                                                |   0% of 79.9 Mb
+|■■■■■■■■                                                                        |  10% of 79.9 Mb
+|■■■■■■■■■■■■■■■■                                                                |  20% of 79.9 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 79.9 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 79.9 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 79.9 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 79.9 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 79.9 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 79.9 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 79.9 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 79.9 Mb
+Firefox 112.0 (playwright build v1403) downloaded to C:\Users\ltuser.ghtestVM\AppData\Local\ms-playwright\firefox-1403
+Downloading Webkit 16.4 (playwright build v1837)[2m from https://playwright.azureedge.net/builds/webkit/1837/webkit-win64.zip[22m
+|                                                                                |   0% of 45.2 Mb
+|■■■■■■■■                                                                        |  10% of 45.2 Mb
+|■■■■■■■■■■■■■■■■                                                                |  20% of 45.2 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 45.2 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 45.2 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 45.2 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 45.2 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 45.2 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 45.2 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 45.2 Mb
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 45.2 Mb
+Webkit 16.4 (playwright build v1837) downloaded to C:\Users\ltuser.ghtestVM\AppData\Local\ms-playwright\webkit-1837
+
+> core-js@3.29.0 postinstall D:\foreman\ContosoTraders.Ui.Website\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js:[0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://patreon.com/zloirock [0m
+[96m>[94m https://boosty.to/zloirock [0m
+[96m>[94m bitcoin: bc1qlea7544qtsmj2rayg0lthvza9fau63ux0fstcz [0m
+
+[96mI highly recommend reading this:[94m https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md [96m[0m
+
+
+> core-js-pure@3.29.0 postinstall D:\foreman\ContosoTraders.Ui.Website\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1466 packages from 732 contributors and audited 1467 packages in 366.336s
+
+242 packages are looking for funding
+  run `npm fund` for details
+
+found 1 high severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
+******************* npx playwright install *******************

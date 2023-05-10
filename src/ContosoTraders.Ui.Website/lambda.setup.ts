@@ -14,7 +14,7 @@ const capabilities = {
   "LT:Options": {
     platform: "Windows 10",
     build: "Playwright Build",
-    name: "Playwright Test",
+    name: "Github copilot Test Build",
     user: process.env.LT_USERNAME,
     accessKey: process.env.LT_ACCESS_KEY,
     network: true,
