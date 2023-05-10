@@ -13,7 +13,6 @@ tunnelOpts:
   global: true
 pre:
   - npm install
-  - npm run build
   - npx playwright install
 cacheDirectories:
     - node_modules
