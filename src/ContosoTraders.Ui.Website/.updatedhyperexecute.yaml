@@ -2,9 +2,9 @@ version: "0.1"
 user: gagandeepb
 key: wzgRUvmhiGodczTuOWhY0IkITni78467mDrYTFzbFwAMlMqaO7
 testSuites: []
-pre: [npm install, npx playwright install]
+pre: [npm install, npx playwright install, npm run build]
 preDirectives:
-    commands: [npm install, npx playwright install]
+    commands: [npm install, npx playwright install, npm run build]
     maxRetries: 0
     shell: ""
     workingDirectory: ""
@@ -25,7 +25,7 @@ globalTimeout: 90
 tunnelOpts:
     global: true
 tunnelNames:
-    - XWEeXftanMDgJQCM
+    - ZkQOSnRuxRytlEHG
 testSuiteTimeout: 90
 testSuiteStep: 90
 cacheDirectories:
@@ -33,7 +33,7 @@ cacheDirectories:
 cacheKey: '{{ checksum "package-lock.json" }}'
 retryOnFailure: true
 maxRetries: 1
-jobID: 7c2421e1-2cd7-4716-b445-911edf1124d8
+jobID: c124332c-96d8-4afc-aec5-8d0daa6675f5
 codeDirectory: ContosoTraders.Ui.Website
 framework:
     name: ""

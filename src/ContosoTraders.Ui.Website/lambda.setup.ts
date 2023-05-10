@@ -20,8 +20,7 @@ const capabilities = {
     network: true,
     video: true,
     console: true,
-    tunnel: true, // Add tunnel configuration if testing locally hosted webpage
-    tunnelName: "", // Optional
+   // Optional
     geoLocation: "", // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
   },
 };
