@@ -19,7 +19,7 @@ on:
         
       sampleRepoLink:
         description: Link to the HyperExecute sample repo
-        default: https://github.com/gagan-lambda/contosotraders-cloudtesting
+        default: https://github.com/gagan-lambda/contosotraders-cloudtesting.git
         required: true
 jobs:
   HyperExecute-Playwright:
