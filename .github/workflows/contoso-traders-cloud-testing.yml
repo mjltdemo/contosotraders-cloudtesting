@@ -28,4 +28,5 @@ jobs:
               npm install
               npm run build &
               curl https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute -o hyperexecute
+              chmod u+x hyperexecute
             ./hyperexecute --user gagandeepb --key wzgRUvmhiGodczTuOWhY0IkITni78467mDrYTFzbFwAMlMqaO7  --config hyperExecute.yaml
