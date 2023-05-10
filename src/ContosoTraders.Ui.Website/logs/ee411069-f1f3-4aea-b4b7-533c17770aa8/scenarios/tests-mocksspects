@@ -1,0 +1,13 @@
+
+[2mRunning [22m2[2m tests using [22m2[2m workers[22m
+
+  [32m-[39m  [2m1 [22m[36m[chrome:latest:Windows 10@lambdatest] › mocks.spec.ts:5:9 › Mocks › should be able to load mock home page[39m
+  [32m-[39m  [2m2 [22m[36m[chrome:latest:Windows 10@lambdatest] › mocks.spec.ts:18:9 › Mocks › should be able to load product details[39m
+
+[33m  2 skipped[39m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command succeded

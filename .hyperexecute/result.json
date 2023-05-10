@@ -1,0 +1,322 @@
+{
+    "id": "ad5458a2-e423-4fd9-882f-6988920d5c47",
+    "created_at": "2023-05-10T08:37:55Z",
+    "update_at": "2023-05-10T08:43:58Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2023-05-10T08:38:43Z",
+    "end_time": "2023-05-10T08:43:58Z",
+    "summary": {
+        "total_time": 315000000000,
+        "execution_time": 315000000000,
+        "total_tasks": 4,
+        "build_time_consumed": 1170000000000,
+        "jobTestExecutionTime": "0s",
+        "failed_tasks": 2,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 4
+            },
+            "scenario": {
+                "StageFailedPercent": 22.222221,
+                "StagePassPercent": 77.77778,
+                "TotalStage": 9
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 4
+            }
+        },
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=ad5458a2-e423-4fd9-882f-6988920d5c47"
+    },
+    "tasks": [
+        {
+            "id": "f01f91f0-7d7d-4694-9ee8-9bb574a68737",
+            "os": "win",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2023-05-10T08:38:42Z",
+            "update_at": "2023-05-10T08:43:58Z",
+            "start_time": "2023-05-10T08:38:43Z",
+            "end_time": "2023-05-10T08:43:58Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "47256d17-2a18-4bb5-b142-08a4c0c167a5",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-10T08:38:55Z",
+                    "started_at": "2023-05-10T08:38:56Z",
+                    "updated_at": "2023-05-10T08:43:18Z",
+                    "order": 2
+                },
+                {
+                    "id": "2c3cb388-6a86-4de9-bfc2-6111e519f880",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-05-10T08:43:19Z",
+                    "started_at": "2023-05-10T08:43:20Z",
+                    "updated_at": "2023-05-10T08:43:22Z",
+                    "order": 3
+                },
+                {
+                    "id": "b14e04c1-ab6c-4177-93a7-0fef1eba3310",
+                    "type": "scenario",
+                    "status": "skipped",
+                    "name": "src/ContosoTraders.Ui.Website/tests/api/cart.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-10T08:43:24Z",
+                    "started_at": "2023-05-10T08:43:27Z",
+                    "updated_at": "2023-05-10T08:43:31Z",
+                    "order": 4
+                },
+                {
+                    "id": "c50f53de-f038-4984-9f02-54d053d57ed8",
+                    "type": "scenario",
+                    "status": "skipped",
+                    "name": "src/ContosoTraders.Ui.Website/tests/discounts.spec.ts",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2023-05-10T08:43:24Z",
+                    "started_at": "2023-05-10T08:43:31Z",
+                    "updated_at": "2023-05-10T08:43:34Z",
+                    "order": 5
+                },
+                {
+                    "id": "39c61ed7-0a86-4742-b310-450c555fa89d",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "src/ContosoTraders.Ui.Website/tests/pages.spec.ts",
+                    "iteration": 0,
+                    "link": "command.3.0.log",
+                    "created_at": "2023-05-10T08:43:24Z",
+                    "started_at": "2023-05-10T08:43:34Z",
+                    "updated_at": "2023-05-10T08:43:44Z",
+                    "order": 6
+                },
+                {
+                    "id": "c1297939-c52f-4f61-befe-fffa29f11975",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "src/ContosoTraders.Ui.Website/tests/pages.spec.ts",
+                    "iteration": 1,
+                    "link": "command.3.1.log",
+                    "created_at": "2023-05-10T08:43:46Z",
+                    "started_at": "2023-05-10T08:43:46Z",
+                    "updated_at": "2023-05-10T08:43:56Z",
+                    "order": 6
+                }
+            ]
+        },
+        {
+            "id": "b634c3af-de06-445f-b6fc-49c82ce66527",
+            "os": "win",
+            "status": "skipped",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-10T08:38:42Z",
+            "update_at": "2023-05-10T08:43:35Z",
+            "start_time": "2023-05-10T08:38:43Z",
+            "end_time": "2023-05-10T08:43:35Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "ea74fbb3-f97c-4904-b211-cf8c5784c1af",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-10T08:38:52Z",
+                    "started_at": "2023-05-10T08:38:53Z",
+                    "updated_at": "2023-05-10T08:43:17Z",
+                    "order": 2
+                },
+                {
+                    "id": "bb541faf-c391-4ef6-b34b-05630996491b",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-05-10T08:43:20Z",
+                    "started_at": "2023-05-10T08:43:21Z",
+                    "updated_at": "2023-05-10T08:43:22Z",
+                    "order": 3
+                },
+                {
+                    "id": "cbc85a48-9f50-4667-baad-a2f5a9ee9782",
+                    "type": "scenario",
+                    "status": "skipped",
+                    "name": "src/ContosoTraders.Ui.Website/tests/api/data.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-10T08:43:25Z",
+                    "started_at": "2023-05-10T08:43:28Z",
+                    "updated_at": "2023-05-10T08:43:31Z",
+                    "order": 4
+                },
+                {
+                    "id": "3e7c125b-b642-4638-b328-78e2595ce8c0",
+                    "type": "scenario",
+                    "status": "skipped",
+                    "name": "src/ContosoTraders.Ui.Website/tests/fileupload.spec.ts",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2023-05-10T08:43:25Z",
+                    "started_at": "2023-05-10T08:43:31Z",
+                    "updated_at": "2023-05-10T08:43:34Z",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "id": "f505bae0-6428-4a72-aeec-1cbce3a12e59",
+            "os": "win",
+            "status": "skipped",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-10T08:38:42Z",
+            "update_at": "2023-05-10T08:43:32Z",
+            "start_time": "2023-05-10T08:38:43Z",
+            "end_time": "2023-05-10T08:43:32Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "3c4c96bb-c4c0-4f90-8053-f7b00e64fc0e",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-10T08:38:53Z",
+                    "started_at": "2023-05-10T08:38:54Z",
+                    "updated_at": "2023-05-10T08:43:15Z",
+                    "order": 2
+                },
+                {
+                    "id": "4d68391d-a9c0-4139-a8e3-0b3bb40936f3",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-05-10T08:43:17Z",
+                    "started_at": "2023-05-10T08:43:18Z",
+                    "updated_at": "2023-05-10T08:43:19Z",
+                    "order": 3
+                },
+                {
+                    "id": "19894cbf-6a59-44ad-974a-6bfaa7a7acbf",
+                    "type": "scenario",
+                    "status": "skipped",
+                    "name": "src/ContosoTraders.Ui.Website/tests/api/products.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-10T08:43:21Z",
+                    "started_at": "2023-05-10T08:43:24Z",
+                    "updated_at": "2023-05-10T08:43:28Z",
+                    "order": 4
+                },
+                {
+                    "id": "d311efc4-eca0-4773-9155-1e3445aa8e2d",
+                    "type": "scenario",
+                    "status": "skipped",
+                    "name": "src/ContosoTraders.Ui.Website/tests/map.spec.ts",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2023-05-10T08:43:21Z",
+                    "started_at": "2023-05-10T08:43:28Z",
+                    "updated_at": "2023-05-10T08:43:31Z",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "id": "f16d185c-9d0f-4ed1-8720-b0d4a88aa7d3",
+            "os": "win",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2023-05-10T08:38:42Z",
+            "update_at": "2023-05-10T08:43:17Z",
+            "start_time": "2023-05-10T08:38:43Z",
+            "end_time": "2023-05-10T08:43:17Z",
+            "group_number": 4,
+            "stages": [
+                {
+                    "id": "36b69598-212f-4d0c-a42a-23d55eaa7598",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-10T08:38:53Z",
+                    "started_at": "2023-05-10T08:38:54Z",
+                    "updated_at": "2023-05-10T08:42:54Z",
+                    "order": 2
+                },
+                {
+                    "id": "cc42dab2-b00f-4dcb-8050-a8d28b33ae64",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-05-10T08:42:56Z",
+                    "started_at": "2023-05-10T08:42:58Z",
+                    "updated_at": "2023-05-10T08:42:59Z",
+                    "order": 3
+                },
+                {
+                    "id": "2b3eda99-09a4-4a84-9cdc-9f9979308e08",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "src/ContosoTraders.Ui.Website/tests/darkmode.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-10T08:43:01Z",
+                    "started_at": "2023-05-10T08:43:04Z",
+                    "updated_at": "2023-05-10T08:43:09Z",
+                    "order": 4
+                },
+                {
+                    "id": "95228e64-125b-4055-939f-a599161590c2",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "src/ContosoTraders.Ui.Website/tests/darkmode.spec.ts",
+                    "iteration": 1,
+                    "link": "command.1.1.log",
+                    "created_at": "2023-05-10T08:43:09Z",
+                    "started_at": "2023-05-10T08:43:09Z",
+                    "updated_at": "2023-05-10T08:43:14Z",
+                    "order": 4
+                },
+                {
+                    "id": "c0ca2386-d396-4ead-bbe9-1ed18c0158a0",
+                    "type": "scenario",
+                    "status": "skipped",
+                    "name": "src/ContosoTraders.Ui.Website/tests/mocks.spec.ts",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2023-05-10T08:43:01Z",
+                    "started_at": "2023-05-10T08:43:14Z",
+                    "updated_at": "2023-05-10T08:43:16Z",
+                    "order": 5
+                }
+            ]
+        }
+    ]
+}

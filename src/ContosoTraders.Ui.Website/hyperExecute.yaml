@@ -1,0 +1,23 @@
+version: 0.1
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: win
+retryOnFailure: true
+maxRetries: 1
+autosplit: true
+concurrency: 3
+tunnel: true
+tunnelOpts:
+  global: true
+pre:
+  - npm install
+  - npx playwright install  
+cacheDirectories:
+    - node_modules
+cacheKey: '{{ checksum "package-lock.json" }}'
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command : grep -lr 'describe' tests -ir --include=*spec.ts
+testRunnerCommand: npx playwright test $test

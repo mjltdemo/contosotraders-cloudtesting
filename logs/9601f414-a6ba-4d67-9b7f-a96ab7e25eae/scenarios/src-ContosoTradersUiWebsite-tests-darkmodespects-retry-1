@@ -1,0 +1,24 @@
+
+[2mRunning [22m1[2m test using [22m1[2m worker[22m
+
+  [31mx[39m  [2m1 [22m[31msrc\ContosoTraders.Ui.Website\tests\darkmode.spec.ts:8:7 › Basic Header Validation › should be able to toggle dark mode[39m[2m (18ms)[22m
+
+
+[31m  1) src\ContosoTraders.Ui.Website\tests\darkmode.spec.ts:8:7 › Basic Header Validation › should be able to toggle dark mode [39m
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\ltuser.ghtestVM\AppData\Local\ms-playwright\chromium-1055\chrome-win\chrome.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+[31m  1 failed[39m
+[31m    src\ContosoTraders.Ui.Website\tests\darkmode.spec.ts:8:7 › Basic Header Validation › should be able to toggle dark mode [39m
+Command Failed

@@ -1,0 +1,15 @@
+
+[2mRunning [22m4[2m tests using [22m2[2m workers[22m
+
+  [32m-[39m  [2m1 [22m[36m[chrome:latest:Windows 10@lambdatest] › discounts.spec.ts:16:13 › Discount Codes › should be able to use VALID discount code DISCOUNT15[39m
+  [32m-[39m  [2m2 [22m[36m[chrome:latest:Windows 10@lambdatest] › discounts.spec.ts:16:13 › Discount Codes › should be able to use VALID discount code DISCOUNT10[39m
+  [32m-[39m  [2m3 [22m[36m[chrome:latest:Windows 10@lambdatest] › discounts.spec.ts:26:13 › Discount Codes › should not be able to use INVALID discount code DISCOUNT20[39m
+  [32m-[39m  [2m4 [22m[36m[chrome:latest:Windows 10@lambdatest] › discounts.spec.ts:26:13 › Discount Codes › should not be able to use INVALID discount code DISCOUNT30[39m
+
+[33m  4 skipped[39m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command succeded

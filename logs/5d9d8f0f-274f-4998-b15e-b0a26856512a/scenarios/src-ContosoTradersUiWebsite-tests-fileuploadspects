@@ -1,0 +1,7 @@
+
+[2mRunning [22m1[2m test using [22m1[2m worker[22m
+
+  [32m-[39m  [2m1 [22m[36msrc\ContosoTraders.Ui.Website\tests\fileupload.spec.ts:7:7 › File Upload › should be able to upload a file[39m
+
+[33m  1 skipped[39m
+Command succeded

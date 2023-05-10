@@ -1,0 +1,14 @@
+
+[2mRunning [22m3[2m tests using [22m2[2m workers[22m
+
+  [32m-[39m  [2m1 [22m[36m[chrome:latest:Windows 10@lambdatest] › map.spec.ts:21:7 › Map › should display bing maps iframe[39m
+  [32m-[39m  [2m2 [22m[36m[chrome:latest:Windows 10@lambdatest] › map.spec.ts:33:7 › Map › should zoom in on bing maps iframe[39m
+  [32m-[39m  [2m3 [22m[36m[chrome:latest:Windows 10@lambdatest] › map.spec.ts:37:7 › Map › should zoom out on bing maps iframe[39m
+
+[33m  3 skipped[39m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command succeded

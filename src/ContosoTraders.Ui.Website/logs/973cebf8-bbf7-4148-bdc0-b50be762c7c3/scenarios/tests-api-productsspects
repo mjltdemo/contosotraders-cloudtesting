@@ -1,0 +1,15 @@
+
+[2mRunning [22m4[2m tests using [22m2[2m workers[22m
+
+  [32m-[39m  [2m1 [22m[36m[chrome:latest:Windows 10@lambdatest] › api\products.spec.ts:19:7 › Products API › should be able to load products list[39m
+  [32m-[39m  [2m2 [22m[36m[chrome:latest:Windows 10@lambdatest] › api\products.spec.ts:25:7 › Products API › should be able to load product details[39m
+  [32m-[39m  [2m3 [22m[36m[chrome:latest:Windows 10@lambdatest] › api\products.spec.ts:31:7 › Products API › should be able to filter products by brands[39m
+  [32m-[39m  [2m4 [22m[36m[chrome:latest:Windows 10@lambdatest] › api\products.spec.ts:13:7 › Products API › should be able to load search by text data[39m
+
+[33m  4 skipped[39m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command succeded

@@ -1,0 +1,10 @@
+Cache Downloading Completed
+level=info name=drone-cache ts=2023-05-09T18:21:33.5095149Z caller=main.go:474 version=dev commit=none date=unknown
+level=warn name=drone-cache ts=2023-05-09T18:21:33.5105205Z caller=backend.go:69 component=plugin msg="using azure blob as backend"
+level=info name=drone-cache ts=2023-05-09T18:21:33.5465167Z caller=restorer.go:37 component=plugin component=restorer msg="restoring  cache"
+level=info name=drone-cache ts=2023-05-09T18:21:33.5465167Z caller=metadata.go:48 component=plugin msg="using provided cache key template"
+level=error name=drone-cache ts=2023-05-09T18:21:33.5465167Z caller=metadata.go:91 component=plugin cachekeytemplate/checksumcouldnotopenfile=(MISSING)
+level=info name=drone-cache ts=2023-05-09T18:21:33.5465167Z caller=restorer.go:55 component=plugin component=restorer msg="restoring directory" local=node_modules remote=cache\windows_\node_modules
+level=info name=drone-cache ts=2023-05-09T18:21:33.5465167Z caller=restorer.go:96 component=plugin component=restorer msg="extracting archived directory" remote=cache\windows_\node_modules local=node_modules
+level=info name=drone-cache ts=2023-05-09T18:21:33.5475159Z caller=restorer.go:87 component=plugin component=restorer msg="downloading archived directory" remote=cache\windows_\node_modules local=node_modules
+level=info name=drone-cache ts=2023-05-09T18:21:35.4746076Z caller=restorer.go:74 component=plugin component=restorer msg="cache restored" took=1.9280415s

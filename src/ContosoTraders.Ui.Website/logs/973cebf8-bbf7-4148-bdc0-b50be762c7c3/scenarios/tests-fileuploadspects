@@ -1,0 +1,12 @@
+
+[2mRunning [22m1[2m test using [22m1[2m worker[22m
+
+  [32m-[39m  [2m1 [22m[36m[chrome:latest:Windows 10@lambdatest] › fileupload.spec.ts:7:7 › File Upload › should be able to upload a file[39m
+
+[33m  1 skipped[39m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command succeded

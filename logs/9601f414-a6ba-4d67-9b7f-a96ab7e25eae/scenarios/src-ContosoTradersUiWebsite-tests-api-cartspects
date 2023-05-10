@@ -1,0 +1,7 @@
+
+[2mRunning [22m1[2m test using [22m1[2m worker[22m
+
+  [32m-[39m  [2m1 [22m[36msrc\ContosoTraders.Ui.Website\tests\api\cart.spec.ts:34:9 › Shopping Cart API › should be able to GET shopping cart[39m
+
+[33m  1 skipped[39m
+Command succeded

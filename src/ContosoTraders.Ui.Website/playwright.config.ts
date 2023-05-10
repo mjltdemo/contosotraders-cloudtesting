@@ -34,7 +34,7 @@ export default defineConfig({
     /* https://github.com/microsoft/playwright/issues/14440 - TODO - Investigate later */
     ignoreHTTPSErrors: true,
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: process.env.REACT_APP_BASEURLFORPLAYWRIGHTTESTING || 'https://production.contosotraders.com/',
+    baseURL: process.env.REACT_APP_BASEURLFORPLAYWRIGHTTESTING || 'http://localhost:3000',
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
@@ -43,9 +43,15 @@ export default defineConfig({
 
   projects: [
     // Setup project
-    { name: 'setup', testMatch: /.*\.setup\.ts/ },
+ //   { name: 'setup', testMatch: /.*\.setup\.ts/ },
     // Test project that requires authentication
     {
+      name: "chrome:latest:Windows 10@lambdatest",
+      use: {
+        viewport: { width: 1280, height: 720 },
+      },
+    },
+   /* {
       name: 'authenticated',
       testMatch: /.account\.ts/,
       use: {
@@ -79,7 +85,8 @@ export default defineConfig({
     },
     {
       name: 'api',
-      testMatch: 'tests/api/**/*.spec.ts',
-    }
+      testMatch: 'tests/api/**.spec.ts',}*/
+    
+
   ],
 });

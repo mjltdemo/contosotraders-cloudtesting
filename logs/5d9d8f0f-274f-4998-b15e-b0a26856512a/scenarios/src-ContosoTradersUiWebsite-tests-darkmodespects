@@ -1,0 +1,33 @@
+Error: Cannot find module 'playwright'
+Require stack:
+- D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\lambda.setup.ts
+- D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\tests\darkmode.spec.ts
+- D:\foreman\contosotraders-cloudtesting\node_modules\@playwright\test\lib\common\transform.js
+- D:\foreman\contosotraders-cloudtesting\node_modules\@playwright\test\lib\common\testType.js
+- D:\foreman\contosotraders-cloudtesting\node_modules\@playwright\test\lib\common\test.js
+- D:\foreman\contosotraders-cloudtesting\node_modules\@playwright\test\lib\reporters\multiplexer.js
+- D:\foreman\contosotraders-cloudtesting\node_modules\@playwright\test\lib\runner\reporters.js
+- D:\foreman\contosotraders-cloudtesting\node_modules\@playwright\test\lib\runner\runner.js
+- D:\foreman\contosotraders-cloudtesting\node_modules\@playwright\test\lib\cli.js
+- D:\foreman\contosotraders-cloudtesting\node_modules\playwright-core\lib\cli\cli.js
+- D:\foreman\contosotraders-cloudtesting\node_modules\playwright-core\cli.js
+- D:\foreman\contosotraders-cloudtesting\node_modules\@playwright\test\cli.js
+
+[90m   at [39msrc\ContosoTraders.Ui.Website\lambda.setup.ts:8
+
+   6 | import * as base from "@playwright/test";
+   7 | import path from "path";
+>  8 | import { chromium } from "playwright";
+     | ^
+   9 |
+  10 | // LambdaTest capabilities
+  11 | const capabilities = {
+
+[2m    at Object.<anonymous> (D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\lambda.setup.ts:8:1)[22m
+[2m    at Object.<anonymous> (D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\tests\darkmode.spec.ts:2:1)[22m
+Error: No tests found
+
+
+
+
+Command Failed

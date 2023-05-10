@@ -1,0 +1,7 @@
+******************* npm install *******************
+npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but package-lock.json was generated for lockfileVersion@2. I'll try to do my best with it!
+npm ERR! code EINVALIDPACKAGENAME
+npm ERR! Invalid package name "@playwright": name can only contain URL-friendly characters
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\npm\cache\_logs\2023-05-10T08_27_45_425Z-debug.log

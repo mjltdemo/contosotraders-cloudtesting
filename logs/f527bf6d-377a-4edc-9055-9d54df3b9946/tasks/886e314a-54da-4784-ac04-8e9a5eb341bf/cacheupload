@@ -1,0 +1,6 @@
+Cache Uploading Completed
+level=info name=drone-cache ts=2023-05-10T08:36:11.8380837Z caller=main.go:474 version=dev commit=none date=unknown
+level=warn name=drone-cache ts=2023-05-10T08:36:11.8380837Z caller=backend.go:69 component=plugin msg="using azure blob as backend"
+level=info name=drone-cache ts=2023-05-10T08:36:12.0370819Z caller=rebuilder.go:40 component=plugin component=rebuilder msg="rebuilding cache"
+level=info name=drone-cache ts=2023-05-10T08:36:12.0380813Z caller=metadata.go:48 component=plugin msg="using provided cache key template"
+level=error name=drone-cache ts=2023-05-10T08:36:12.0470829Z caller=main.go:587 err="[IMPORTANT] build cache, source <src/ContosoTraders.Ui.Website/node_modules>, make sure file or directory exists and readable, CreateFile src/ContosoTraders.Ui.Website/node_modules: The system cannot find the file specified.\n"

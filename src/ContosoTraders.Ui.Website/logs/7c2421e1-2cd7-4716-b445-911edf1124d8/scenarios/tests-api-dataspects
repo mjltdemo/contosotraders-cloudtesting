@@ -1,0 +1,17 @@
+
+[2mRunning [22m6[2m tests using [22m2[2m workers[22m
+
+  [32m-[39m  [2m1 [22m[36m[chrome:latest:Windows 10@lambdatest] › api\data.spec.ts:30:9 › API data Assertions - category › should be able to filter products by category - Desktops and then assert category[39m
+  [32m-[39m  [2m2 [22m[36m[chrome:latest:Windows 10@lambdatest] › api\data.spec.ts:13:9 › API data Assertions - category › should be able to filter products by category - Controllers and then assert category[39m
+  [32m-[39m  [2m3 [22m[36m[chrome:latest:Windows 10@lambdatest] › api\data.spec.ts:47:9 › API data Assertions - category › should be able to filter products by category - Laptops and then assert category[39m
+  [32m-[39m  [2m4 [22m[36m[chrome:latest:Windows 10@lambdatest] › api\data.spec.ts:64:9 › API data Assertions - category › should be able to filter products by category - Mobiles and then assert category[39m
+  [32m-[39m  [2m5 [22m[36m[chrome:latest:Windows 10@lambdatest] › api\data.spec.ts:81:9 › API data Assertions - category › should be able to filter products by category - Monitors and then assert category[39m
+  [32m-[39m  [2m6 [22m[36m[chrome:latest:Windows 10@lambdatest] › api\data.spec.ts:100:9 › API data Assertions - count › should be able to get all products, verify status and get and assert count of each product[39m
+
+[33m  6 skipped[39m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command succeded

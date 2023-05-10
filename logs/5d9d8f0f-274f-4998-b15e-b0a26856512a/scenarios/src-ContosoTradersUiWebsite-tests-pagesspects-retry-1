@@ -1,0 +1,148 @@
+
+[2mRunning [22m14[2m tests using [22m1[2m worker[22m
+
+  [32m-[39m  [2m1 [22m[36msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:10:7 › Header › should be able to search by text[39m
+  [32m-[39m  [2m2 [22m[36msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:16:7 › Header › should be able to select category[39m
+  [32m-[39m  [2m3 [22m[36msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:22:7 › Header › should be able to hover over header menus[39m
+  [32m-[39m  [2m4 [22m[36msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:30:7 › Header › should be able to select header menu[39m
+  [31mx[39m  [2m5 [22m[31msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:37:7 › Carousel › prev and next buttons change slider[39m[2m (126ms)[22m
+  [31mx[39m  [2m6 [22m[31msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:45:7 › Carousel › carousel buttons change slider[39m[2m (126ms)[22m
+  [31mx[39m  [2m7 [22m[31msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:53:7 › Carousel › buy now button links to product page[39m[2m (123ms)[22m
+  [31mx[39m  [2m8 [22m[31msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:58:7 › Carousel › more details links to list page[39m[2m (121ms)[22m
+  [31mx[39m  [2m9 [22m[31msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:63:7 › Carousel › verify carousel is pixel perfect - slide 1[39m[2m (123ms)[22m
+  [31mx[39m  [2m10 [22m[31msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:67:7 › Carousel › verify carousel is pixel perfect - slide 2[39m[2m (121ms)[22m
+  [32m-[39m  [2m11 [22m[36msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:75:7 › Product Listing › should be able to select product to view details[39m
+  [32m-[39m  [2m12 [22m[36msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:81:7 › Product Listing › should be able to filter product by brands[39m
+  [31mx[39m  [2m13 [22m[31msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:88:7 › Product Details › Image does not break UI[39m[2m (134ms)[22m
+  [32m-[39m  [2m14 [22m[36msrc\ContosoTraders.Ui.Website\tests\pages.spec.ts:105:7 › Footer › should be able to select footer menu[39m
+
+
+[31m  1) src\ContosoTraders.Ui.Website\tests\pages.spec.ts:37:7 › Carousel › prev and next buttons change slider [39m
+
+    Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+    =========================== logs ===========================
+    navigating to "/", waiting until "load"
+    ============================================================
+
+      4 |
+      5 | test.beforeEach(async ({ page }) => {
+    > 6 |   await page.goto('/');
+        |              ^
+      7 | })
+      8 |
+      9 | test.describe.skip('Header', () => {
+
+    [2m    at D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\tests\pages.spec.ts:6:14[22m
+
+[31m  2) src\ContosoTraders.Ui.Website\tests\pages.spec.ts:45:7 › Carousel › carousel buttons change slider [39m
+
+    Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+    =========================== logs ===========================
+    navigating to "/", waiting until "load"
+    ============================================================
+
+      4 |
+      5 | test.beforeEach(async ({ page }) => {
+    > 6 |   await page.goto('/');
+        |              ^
+      7 | })
+      8 |
+      9 | test.describe.skip('Header', () => {
+
+    [2m    at D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\tests\pages.spec.ts:6:14[22m
+
+[31m  3) src\ContosoTraders.Ui.Website\tests\pages.spec.ts:53:7 › Carousel › buy now button links to product page [39m
+
+    Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+    =========================== logs ===========================
+    navigating to "/", waiting until "load"
+    ============================================================
+
+      4 |
+      5 | test.beforeEach(async ({ page }) => {
+    > 6 |   await page.goto('/');
+        |              ^
+      7 | })
+      8 |
+      9 | test.describe.skip('Header', () => {
+
+    [2m    at D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\tests\pages.spec.ts:6:14[22m
+
+[31m  4) src\ContosoTraders.Ui.Website\tests\pages.spec.ts:58:7 › Carousel › more details links to list page [39m
+
+    Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+    =========================== logs ===========================
+    navigating to "/", waiting until "load"
+    ============================================================
+
+      4 |
+      5 | test.beforeEach(async ({ page }) => {
+    > 6 |   await page.goto('/');
+        |              ^
+      7 | })
+      8 |
+      9 | test.describe.skip('Header', () => {
+
+    [2m    at D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\tests\pages.spec.ts:6:14[22m
+
+[31m  5) src\ContosoTraders.Ui.Website\tests\pages.spec.ts:63:7 › Carousel › verify carousel is pixel perfect - slide 1 [39m
+
+    Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+    =========================== logs ===========================
+    navigating to "/", waiting until "load"
+    ============================================================
+
+      4 |
+      5 | test.beforeEach(async ({ page }) => {
+    > 6 |   await page.goto('/');
+        |              ^
+      7 | })
+      8 |
+      9 | test.describe.skip('Header', () => {
+
+    [2m    at D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\tests\pages.spec.ts:6:14[22m
+
+[31m  6) src\ContosoTraders.Ui.Website\tests\pages.spec.ts:67:7 › Carousel › verify carousel is pixel perfect - slide 2 [39m
+
+    Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+    =========================== logs ===========================
+    navigating to "/", waiting until "load"
+    ============================================================
+
+      4 |
+      5 | test.beforeEach(async ({ page }) => {
+    > 6 |   await page.goto('/');
+        |              ^
+      7 | })
+      8 |
+      9 | test.describe.skip('Header', () => {
+
+    [2m    at D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\tests\pages.spec.ts:6:14[22m
+
+[31m  7) src\ContosoTraders.Ui.Website\tests\pages.spec.ts:88:7 › Product Details › Image does not break UI [39m
+
+    Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+    =========================== logs ===========================
+    navigating to "/", waiting until "load"
+    ============================================================
+
+      4 |
+      5 | test.beforeEach(async ({ page }) => {
+    > 6 |   await page.goto('/');
+        |              ^
+      7 | })
+      8 |
+      9 | test.describe.skip('Header', () => {
+
+    [2m    at D:\foreman\contosotraders-cloudtesting\src\ContosoTraders.Ui.Website\tests\pages.spec.ts:6:14[22m
+
+[31m  7 failed[39m
+[31m    src\ContosoTraders.Ui.Website\tests\pages.spec.ts:37:7 › Carousel › prev and next buttons change slider [39m
+[31m    src\ContosoTraders.Ui.Website\tests\pages.spec.ts:45:7 › Carousel › carousel buttons change slider [39m
+[31m    src\ContosoTraders.Ui.Website\tests\pages.spec.ts:53:7 › Carousel › buy now button links to product page [39m
+[31m    src\ContosoTraders.Ui.Website\tests\pages.spec.ts:58:7 › Carousel › more details links to list page [39m
+[31m    src\ContosoTraders.Ui.Website\tests\pages.spec.ts:63:7 › Carousel › verify carousel is pixel perfect - slide 1 [39m
+[31m    src\ContosoTraders.Ui.Website\tests\pages.spec.ts:67:7 › Carousel › verify carousel is pixel perfect - slide 2 [39m
+[31m    src\ContosoTraders.Ui.Website\tests\pages.spec.ts:88:7 › Product Details › Image does not break UI [39m
+[33m  7 skipped[39m
+Command Failed

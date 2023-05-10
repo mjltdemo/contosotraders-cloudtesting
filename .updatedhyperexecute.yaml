@@ -1,0 +1,60 @@
+version: "0.1"
+user: gagandeepb
+key: wzgRUvmhiGodczTuOWhY0IkITni78467mDrYTFzbFwAMlMqaO7
+testSuites: []
+pre: [npm install, npx playwright install]
+preDirectives:
+    commands: [npm install, npx playwright install]
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+runson: win
+autosplit: true
+concurrency: 4
+testDiscovery:
+    autosubset: true
+    command: grep -lr 'describe' src/ContosoTraders.Ui.Website/tests -ir --include=*spec.ts
+    mode: dynamic
+    type: raw
+testRunnerCommand: npx playwright test $test
+globalTimeout: 90
+tunnelOpts:
+    global: true
+tunnelNames:
+    - pcaCFkZJSKpakVTT
+testSuiteTimeout: 90
+testSuiteStep: 90
+cacheDirectories:
+    - node_modules
+cacheKey: '{{ checksum "package-lock.json" }}'
+retryOnFailure: true
+maxRetries: 1
+jobID: ad5458a2-e423-4fd9-882f-6988920d5c47
+codeDirectory: contosotraders-cloudtesting
+framework:
+    name: ""
+    flags: []
+    discoveryFlags: []
+    discoveryType: ""
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: false
+    defaultReports: true
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+testType: playwright
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
+collectLocalGitData: false
