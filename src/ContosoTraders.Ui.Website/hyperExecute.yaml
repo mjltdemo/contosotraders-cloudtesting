@@ -19,9 +19,5 @@ testDiscovery:
   mode: dynamic
   command : grep -lr 'describe' tests -ir --include=*spec.ts
 testRunnerCommand: npx playwright test $test
-mergeArtifacts: true
-
-uploadArtefacts:
- - name: ExecutionSnapshots
-   path:
-    - target/surefire-reports/html/**
+post:
+- npx playwright test-results --output-folder test-results
