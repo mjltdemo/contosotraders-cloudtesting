@@ -20,4 +20,10 @@ testDiscovery:
   command : grep -lr 'describe' tests -ir --include=*spec.ts
 testRunnerCommand: npx playwright test $test
 post:
-- npx playwright show-report
+mergeArtifacts: true
+
+uploadArtefacts:
+  [{
+    "name": "Reports",
+    "path": ["Reports\\"]
+  }]
