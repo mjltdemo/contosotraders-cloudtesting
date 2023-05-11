@@ -25,7 +25,7 @@ globalTimeout: 90
 tunnelOpts:
     global: true
 tunnelNames:
-    - tyAGbJliXVojckUD
+    - fVQcYIvtYSQoHTMm
 testSuiteTimeout: 90
 testSuiteStep: 90
 cacheDirectories:
@@ -33,7 +33,7 @@ cacheDirectories:
 cacheKey: '{{ checksum "package-lock.json" }}'
 retryOnFailure: true
 maxRetries: 1
-jobID: 8450bf98-e952-4996-9220-843bb1630c6f
+jobID: 1a8a428f-8c61-4799-b58d-af6489b63614
 codeDirectory: ContosoTraders.Ui.Website
 framework:
     name: ""

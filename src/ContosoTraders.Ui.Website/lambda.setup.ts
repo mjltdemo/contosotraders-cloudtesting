@@ -20,6 +20,8 @@ const capabilities = {
     network: true,
     video: true,
     console: true,
+    tunnel : true,
+    tunnelName: 'copilot',
     geoLocation: "", // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
   },
 };
