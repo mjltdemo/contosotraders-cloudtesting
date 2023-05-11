@@ -1,0 +1,10 @@
+Cache Uploading Completed
+level=info name=drone-cache ts=2023-05-10T21:22:51.7356924Z caller=main.go:474 version=dev commit=none date=unknown
+level=warn name=drone-cache ts=2023-05-10T21:22:51.7356924Z caller=backend.go:69 component=plugin msg="using azure blob as backend"
+level=info name=drone-cache ts=2023-05-10T21:22:51.769691Z caller=rebuilder.go:40 component=plugin component=rebuilder msg="rebuilding cache"
+level=info name=drone-cache ts=2023-05-10T21:22:51.769691Z caller=metadata.go:48 component=plugin msg="using provided cache key template"
+level=info name=drone-cache ts=2023-05-10T21:22:51.7706932Z caller=rebuilder.go:74 component=plugin component=rebuilder msg="rebuilding cache for directory" local=node_modules remote=cache\orgid_1181722\windows_c7cce93533d11d904e9318aabf1db6e1\node_modules
+level=info name=drone-cache ts=2023-05-10T21:22:51.7736926Z caller=rebuilder.go:125 component=plugin component=rebuilder msg="uploading archived directory" local=D:\foreman\ContosoTraders.Ui.Website\node_modules remote=cache\orgid_1181722\windows_c7cce93533d11d904e9318aabf1db6e1\node_modules
+level=info name=drone-cache ts=2023-05-10T21:22:51.7736926Z caller=rebuilder.go:113 component=plugin component=rebuilder msg="archiving directory" src=D:\foreman\ContosoTraders.Ui.Website\node_modules
+name=drone-cache ts=2023-05-10T21:22:51.7736926Z caller=azure.go:115 component=plugin backend=azure msg="uploading the file with blob" name=cache\orgid_1181722\windows_c7cce93533d11d904e9318aabf1db6e1\node_modules
+level=info name=drone-cache ts=2023-05-10T21:23:01.6144099Z caller=rebuilder.go:93 component=plugin component=rebuilder msg="cache built" took=9.8445801s
