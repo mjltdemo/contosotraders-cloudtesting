@@ -6,7 +6,7 @@ runson: win
 retryOnFailure: true
 maxRetries: 1
 autosplit: true
-concurrency: 5
+concurrency: 4
 tunnel: true
 pre:
   - npm install
