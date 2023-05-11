@@ -51,6 +51,18 @@ export default defineConfig({
         viewport: { width: 1280, height: 720 },
       },
     },
+    {
+      name: "chrome:109:Windows 10@lambdatest",
+      use: {
+        viewport: { width: 1280, height: 720 },
+      },
+    },
+    {
+      name: "chrome:108:Windows 10@lambdatest",
+      use: {
+        viewport: { width: 1280, height: 720 },
+      },
+    },
    /* {
       name: 'authenticated',
       testMatch: /.account\.ts/,

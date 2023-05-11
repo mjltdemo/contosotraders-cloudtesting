@@ -1,19 +1,18 @@
 //add the import statement for test from lambda.setup.ts
 import test from '../lambda.setup';
 //add the import statement for expect from @playwright/test
-import {  expect } from '@playwright/test';
-//add before each statement
+import { expect } from '@playwright/test';
+// add beforeEach hook to navigate to the page localhost:3000
 test.beforeEach(async ({ page }) => {
     await page.goto('http://localhost:3000/');
     }
 );
-//add the test.describe statement
-test.describe('Webpage Message Validation', () => {
-    //add the test statement
-    test('verify Message on Page', async ({ page }) => {
-        //add the await statement
-        await page.getByText("This Is A Demo Store For Testing Purposes.")
-        //add the expect statement
+//add the test.describe block for the test suite Message validation with test to verify text "This is a demo site"
+test.describe('Message Validation', () => {
+    test('verify text "This is a demo site"', async ({ page }) => {
+        //add the code to verify the text "This is a demo site" on the page
+        await page.getByText('This demo site for Testing Purpose');
+        //add the code to verify the text "This is a demo site" on the page
         await expect(page).toBeTruthy();
-        });
     });
+});

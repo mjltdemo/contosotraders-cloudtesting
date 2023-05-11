@@ -22,6 +22,7 @@ const capabilities = {
     console: true,
     geoLocation: "", // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
   },
+     
 };
 
 // Patching the capabilities dynamically according to the project name.
