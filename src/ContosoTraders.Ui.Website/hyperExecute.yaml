@@ -23,6 +23,6 @@ post:
 mergeArtifacts: true
 uploadArtefacts:
   [{
-    "name": "Reports",
+    "name": "reports",
     "path": ["reports\\"]
   }]
