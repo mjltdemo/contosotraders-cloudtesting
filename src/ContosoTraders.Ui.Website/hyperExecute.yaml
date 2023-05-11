@@ -6,7 +6,7 @@ runson: win
 retryOnFailure: true
 maxRetries: 1
 autosplit: true
-concurrency: 4
+concurrency: 5
 pre:
   - npm install
   - npx playwright install  
