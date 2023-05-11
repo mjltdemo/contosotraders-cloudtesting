@@ -20,4 +20,4 @@ testDiscovery:
   command : grep -lr 'describe' tests -ir --include=*spec.ts
 testRunnerCommand: npx playwright test $test
 post:
-- npx playwright test-results --output-folder test-results
+- npx playwright show-report
