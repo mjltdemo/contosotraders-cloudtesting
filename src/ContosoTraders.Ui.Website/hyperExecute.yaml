@@ -7,7 +7,7 @@ retryOnFailure: true
 maxRetries: 1
 autosplit: true
 concurrency: 4
-tunnel : true
+tunnel: true
 pre:
   - npm install
   - npx playwright install  
