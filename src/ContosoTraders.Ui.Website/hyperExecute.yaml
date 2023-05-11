@@ -21,9 +21,3 @@ testDiscovery:
 testRunnerCommand: npx playwright test $test
 post:
 mergeArtifacts: true
-
-uploadArtefacts:
-  [{
-    "name": "Reports",
-    "path": ["Reports\\"]
-  }]
