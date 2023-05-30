@@ -1,0 +1,12 @@
+
+[2mRunning [22m1[2m test using [22m1[2m worker[22m
+
+  [32mok[39m [2m1 [22m[pw-firefox:latest@lambdatest] › sample.spec.ts:8:7 › Cart Validation › verify cart icon on the Page[2m (11.0s)[22m
+
+[32m  1 passed[39m[2m (12.1s)[22m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command succeded

@@ -1,0 +1,11 @@
+
+Running 1 test using 1 worker
+
+  ✓  1 [chrome:108:Windows10@lambdatest] › verifyMsg.spec.ts:8:7 › msg Validation › verify message on site (6.2s)
+
+  1 passed (7.0s)
+
+To open last HTML report run:
+
+  npx playwright show-report
+

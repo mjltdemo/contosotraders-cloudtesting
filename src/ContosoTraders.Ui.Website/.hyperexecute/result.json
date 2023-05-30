@@ -1,112 +1,920 @@
 {
-    "id": "7d1588ff-e091-4f62-8dd1-84a6ce6192b6",
-    "created_at": "2023-05-30T12:54:38Z",
-    "update_at": "2023-05-30T12:58:15Z",
+    "id": "c120ca60-c004-4d50-a07c-5c68cdbfbb5d",
+    "created_at": "2023-05-30T13:59:10Z",
+    "update_at": "2023-05-30T14:01:53Z",
     "global_timeout": 90,
     "tunnel_name": "",
-    "start_time": "2023-05-30T12:55:26Z",
-    "end_time": "2023-05-30T12:58:15Z",
+    "start_time": "2023-05-30T14:00:10Z",
+    "end_time": "2023-05-30T14:01:53Z",
     "summary": {
-        "total_time": 169000000000,
-        "execution_time": 169000000000,
-        "total_tasks": 1,
-        "build_time_consumed": 169000000000,
-        "jobTestExecutionTime": "1m30s",
+        "total_time": 103000000000,
+        "execution_time": 103000000000,
+        "total_tasks": 24,
+        "build_time_consumed": 1904000000000,
+        "jobTestExecutionTime": "43s",
         "failed_tasks": 0,
         "total_stage_info": {
             "prerun": {
                 "StageFailedPercent": 0,
                 "StagePassPercent": 100,
-                "TotalStage": 1
+                "TotalStage": 23
             },
             "scenario": {
-                "StageFailedPercent": 0,
-                "StagePassPercent": 100,
-                "TotalStage": 3
-            },
-            "test_discovery": {
-                "StageFailedPercent": 0,
-                "StagePassPercent": 100,
-                "TotalStage": 1
+                "StageFailedPercent": 4.347826,
+                "StagePassPercent": 95.652176,
+                "TotalStage": 23
             }
         },
         "status": "completed",
-        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=7d1588ff-e091-4f62-8dd1-84a6ce6192b6"
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c120ca60-c004-4d50-a07c-5c68cdbfbb5d"
     },
     "tasks": [
         {
-            "id": "f824dee7-5911-435b-badb-7cc1d97029a0",
+            "id": "fb476b37-66ad-42ec-b970-9cb01e74c8bc",
             "os": "win",
             "status": "completed",
             "remark": "completed",
             "debug": false,
-            "created_at": "2023-05-30T12:55:25Z",
-            "update_at": "2023-05-30T12:58:15Z",
-            "start_time": "2023-05-30T12:55:26Z",
-            "end_time": "2023-05-30T12:58:15Z",
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:28Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:28Z",
             "group_number": 1,
             "stages": [
                 {
-                    "id": "0279c8f7-2a8d-4462-b12d-3916892d44d9",
+                    "id": "7b2e5548-106e-4308-965b-68b80413ba68",
                     "type": "prerun",
                     "status": "completed",
                     "name": "pre",
                     "iteration": 0,
                     "link": "pre.log",
-                    "created_at": "2023-05-30T12:55:34Z",
-                    "started_at": "2023-05-30T12:55:35Z",
-                    "updated_at": "2023-05-30T12:56:20Z",
+                    "created_at": "2023-05-30T14:00:17Z",
+                    "started_at": "2023-05-30T14:00:19Z",
+                    "updated_at": "2023-05-30T14:01:04Z",
                     "order": 2
                 },
                 {
-                    "id": "cbc93469-d2ba-41ab-8870-ccc4a68336e1",
-                    "type": "test_discovery",
-                    "status": "completed",
-                    "name": "discovery",
-                    "iteration": 0,
-                    "link": "discovery.log",
-                    "created_at": "2023-05-30T12:56:22Z",
-                    "started_at": "2023-05-30T12:56:23Z",
-                    "updated_at": "2023-05-30T12:56:24Z",
-                    "order": 3
-                },
-                {
-                    "id": "fab0386a-98db-4208-8027-4b687680ac10",
+                    "id": "3d392d34-f19e-4f55-bb35-019783418ccd",
                     "type": "scenario",
                     "status": "completed",
-                    "name": "tests/cart.spec.ts",
+                    "name": "npx playwright test --project=MicrosoftEdge:latest:Windows10@lambdatest tests/sample.spec.ts",
                     "iteration": 0,
                     "link": "command.1.0.log",
-                    "created_at": "2023-05-30T12:56:26Z",
-                    "started_at": "2023-05-30T12:56:32Z",
-                    "updated_at": "2023-05-30T12:57:13Z",
-                    "order": 4
-                },
-                {
-                    "id": "5a80cdb6-6c38-4806-8b75-0017961ff31c",
-                    "type": "scenario",
-                    "status": "completed",
-                    "name": "tests/pageTitle.spec.ts",
-                    "iteration": 0,
-                    "link": "command.2.0.log",
-                    "created_at": "2023-05-30T12:56:26Z",
-                    "started_at": "2023-05-30T12:57:12Z",
-                    "updated_at": "2023-05-30T12:57:40Z",
-                    "order": 5
-                },
-                {
-                    "id": "22ccaa60-e2a1-404a-ba94-baba42fa8d8f",
-                    "type": "scenario",
-                    "status": "completed",
-                    "name": "tests/searchbox.spec.ts",
-                    "iteration": 0,
-                    "link": "command.3.0.log",
-                    "created_at": "2023-05-30T12:56:26Z",
-                    "started_at": "2023-05-30T12:57:40Z",
-                    "updated_at": "2023-05-30T12:58:12Z",
-                    "order": 6
+                    "created_at": "2023-05-30T14:01:06Z",
+                    "started_at": "2023-05-30T14:01:12Z",
+                    "updated_at": "2023-05-30T14:01:25Z",
+                    "order": 3
                 }
             ]
+        },
+        {
+            "id": "02b01874-dd92-444a-ade8-ee56dca2f767",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:53Z",
+            "start_time": "2023-05-30T14:00:11Z",
+            "end_time": "2023-05-30T14:01:53Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "8881a606-e7ea-4c78-b108-bf9c5341c387",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:18Z",
+                    "started_at": "2023-05-30T14:00:19Z",
+                    "updated_at": "2023-05-30T14:01:21Z",
+                    "order": 2
+                },
+                {
+                    "id": "7fdcefbc-051e-4d05-b956-c979f7f750a7",
+                    "type": "scenario",
+                    "status": "in-progress",
+                    "name": "npx playwright test --project=chrome:108:Windows10@lambdatest tests/sample.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:23Z",
+                    "started_at": "2023-05-30T14:01:29Z",
+                    "updated_at": "2023-05-30T14:01:29Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "b4a23095-70a7-462b-9a3d-7e4b87670341",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:37Z",
+            "start_time": "2023-05-30T14:00:11Z",
+            "end_time": "2023-05-30T14:01:37Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "f45dd530-b17c-4c88-9f14-3462413cc4d2",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:18Z",
+                    "started_at": "2023-05-30T14:00:19Z",
+                    "updated_at": "2023-05-30T14:01:13Z",
+                    "order": 2
+                },
+                {
+                    "id": "5fd9cd5e-0dd9-4401-81e9-6528280ebe68",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=pw-firefox:latest@lambdatest tests/sample.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:14Z",
+                    "started_at": "2023-05-30T14:01:21Z",
+                    "updated_at": "2023-05-30T14:01:35Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "24f76c7f-856d-49e2-9117-a62c9bf8b884",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:31Z",
+            "start_time": "2023-05-30T14:00:12Z",
+            "end_time": "2023-05-30T14:01:31Z",
+            "group_number": 4,
+            "stages": [
+                {
+                    "id": "657dd545-2d3e-482e-8e65-55d3fed94c8a",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:20Z",
+                    "started_at": "2023-05-30T14:00:21Z",
+                    "updated_at": "2023-05-30T14:01:05Z",
+                    "order": 2
+                },
+                {
+                    "id": "6aa49418-04f1-4f93-868a-a6b6c5cd33ab",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=MicrosoftEdge:latest:Windows10@lambdatest tests/pageTitle.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:08Z",
+                    "started_at": "2023-05-30T14:01:14Z",
+                    "updated_at": "2023-05-30T14:01:29Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "b66ea8a9-d68f-4cf3-b158-3b5184cff345",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:31Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:31Z",
+            "group_number": 5,
+            "stages": [
+                {
+                    "id": "caa0793f-0630-423e-9958-8cd0e6d74b80",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:17Z",
+                    "started_at": "2023-05-30T14:00:19Z",
+                    "updated_at": "2023-05-30T14:01:03Z",
+                    "order": 2
+                },
+                {
+                    "id": "c57e67c7-57fa-4985-8218-f93563f068b5",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=chrome:108:Windows10@lambdatest tests/pageTitle.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:05Z",
+                    "started_at": "2023-05-30T14:01:11Z",
+                    "updated_at": "2023-05-30T14:01:29Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "f73ccee1-6983-4244-9ebd-043b0f620d62",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:29Z",
+            "start_time": "2023-05-30T14:00:11Z",
+            "end_time": "2023-05-30T14:01:29Z",
+            "group_number": 6,
+            "stages": [
+                {
+                    "id": "d7a78884-e31f-4f0f-8412-7a8036dc46cc",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:18Z",
+                    "started_at": "2023-05-30T14:00:19Z",
+                    "updated_at": "2023-05-30T14:01:04Z",
+                    "order": 2
+                },
+                {
+                    "id": "133b714f-76af-4eac-8716-86dccbe93970",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=pw-firefox:latest@lambdatest tests/pageTitle.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:06Z",
+                    "started_at": "2023-05-30T14:01:12Z",
+                    "updated_at": "2023-05-30T14:01:26Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "926757b2-38a8-4a58-a04f-a3ffaa102f71",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:38Z",
+            "start_time": "2023-05-30T14:00:11Z",
+            "end_time": "2023-05-30T14:01:38Z",
+            "group_number": 7,
+            "stages": [
+                {
+                    "id": "3d73f412-81e7-4f31-be5e-9c9d413922b7",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:18Z",
+                    "started_at": "2023-05-30T14:00:19Z",
+                    "updated_at": "2023-05-30T14:01:16Z",
+                    "order": 2
+                },
+                {
+                    "id": "f80bd8c9-dd00-4dff-941b-849caeddca34",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=MicrosoftEdge:latest:Windows10@lambdatest tests/searchbox.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:18Z",
+                    "started_at": "2023-05-30T14:01:24Z",
+                    "updated_at": "2023-05-30T14:01:36Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "34cde5f6-7c02-4848-8735-93eec1eedc52",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:41Z",
+            "start_time": "2023-05-30T14:00:11Z",
+            "end_time": "2023-05-30T14:01:41Z",
+            "group_number": 8,
+            "stages": [
+                {
+                    "id": "53ed15ff-aefb-429c-9067-633eccaab6a9",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:18Z",
+                    "started_at": "2023-05-30T14:00:19Z",
+                    "updated_at": "2023-05-30T14:01:12Z",
+                    "order": 2
+                },
+                {
+                    "id": "865b45e9-baad-4c00-a0ae-45cd1bcd71f4",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=chrome:108:Windows10@lambdatest tests/searchbox.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:14Z",
+                    "started_at": "2023-05-30T14:01:20Z",
+                    "updated_at": "2023-05-30T14:01:39Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "d49865ae-4c92-4e4a-ba21-de3dd66f205c",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:52Z",
+            "start_time": "2023-05-30T14:00:11Z",
+            "end_time": "2023-05-30T14:01:52Z",
+            "group_number": 9,
+            "stages": [
+                {
+                    "id": "8dcbbc7f-83cf-421a-b111-caad45bfb5dc",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:18Z",
+                    "started_at": "2023-05-30T14:00:19Z",
+                    "updated_at": "2023-05-30T14:01:20Z",
+                    "order": 2
+                },
+                {
+                    "id": "06ae5478-1a30-4afa-b988-490e48f45ff0",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=pw-firefox:latest@lambdatest tests/searchbox.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:22Z",
+                    "started_at": "2023-05-30T14:01:35Z",
+                    "updated_at": "2023-05-30T14:01:50Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "e89c1ff7-bc14-4f44-8cd7-345072e0c1f0",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:25Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:25Z",
+            "group_number": 10,
+            "stages": [
+                {
+                    "id": "bcd7e934-9e0c-43e0-8db9-0e7a333e5be6",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:17Z",
+                    "started_at": "2023-05-30T14:00:18Z",
+                    "updated_at": "2023-05-30T14:01:03Z",
+                    "order": 2
+                },
+                {
+                    "id": "39a2126f-cf7e-42f4-99bd-e7b7b1320645",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=MicrosoftEdge:latest:Windows10@lambdatest verifyMsg.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:05Z",
+                    "started_at": "2023-05-30T14:01:11Z",
+                    "updated_at": "2023-05-30T14:01:22Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "3bb7fa7c-5e86-46d1-929e-37f55b3b330b",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:31Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:31Z",
+            "group_number": 11,
+            "stages": [
+                {
+                    "id": "40a377f2-4521-47f0-83bb-b6eaf41c3127",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:17Z",
+                    "started_at": "2023-05-30T14:00:18Z",
+                    "updated_at": "2023-05-30T14:01:02Z",
+                    "order": 2
+                },
+                {
+                    "id": "0e1234fd-6d89-4dda-95b6-83710f502e00",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=chrome:108:Windows10@lambdatest verifyMsg.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:04Z",
+                    "started_at": "2023-05-30T14:01:10Z",
+                    "updated_at": "2023-05-30T14:01:29Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "4e34dac4-7050-4b69-ada2-b3618e36b517",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:31Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:31Z",
+            "group_number": 12,
+            "stages": [
+                {
+                    "id": "f94b0b57-2f4d-4d93-aad0-c5b18b3ca324",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:17Z",
+                    "started_at": "2023-05-30T14:00:18Z",
+                    "updated_at": "2023-05-30T14:01:05Z",
+                    "order": 2
+                },
+                {
+                    "id": "a4af6a78-0312-4d9d-a17b-8a7c2d047790",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=pw-firefox:latest@lambdatest verifyMsg.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:07Z",
+                    "started_at": "2023-05-30T14:01:13Z",
+                    "updated_at": "2023-05-30T14:01:28Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "49094942-0890-4635-9303-b846cf774716",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:21Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:21Z",
+            "group_number": 13,
+            "stages": [
+                {
+                    "id": "46f884fc-1266-439c-acb5-1d14042b3c21",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:16Z",
+                    "started_at": "2023-05-30T14:00:17Z",
+                    "updated_at": "2023-05-30T14:01:04Z",
+                    "order": 2
+                },
+                {
+                    "id": "ce066dfa-f119-49f0-aa47-c5e57c2b5c18",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=MicrosoftEdge:latest:Windows10@lambdatest tests/sample.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:06Z",
+                    "started_at": "2023-05-30T14:01:08Z",
+                    "updated_at": "2023-05-30T14:01:19Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "d83ab4ce-1294-4b55-9428-d21e8161878e",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:23Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:23Z",
+            "group_number": 14,
+            "stages": [
+                {
+                    "id": "001fb77a-de4a-4175-ac30-6da54471b80a",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:16Z",
+                    "started_at": "2023-05-30T14:00:17Z",
+                    "updated_at": "2023-05-30T14:01:06Z",
+                    "order": 2
+                },
+                {
+                    "id": "d991c304-bc9b-4b1a-ac39-e04891d6556e",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=chrome:108:Windows10@lambdatest tests/sample.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:08Z",
+                    "started_at": "2023-05-30T14:01:10Z",
+                    "updated_at": "2023-05-30T14:01:20Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "48fd9c67-58a2-49bb-87dd-e540ea576a97",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:27Z",
+            "start_time": "2023-05-30T14:00:11Z",
+            "end_time": "2023-05-30T14:01:27Z",
+            "group_number": 15,
+            "stages": [
+                {
+                    "id": "55d2dbb3-87d3-4a2c-a9b1-558203c1b81a",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:17Z",
+                    "started_at": "2023-05-30T14:00:18Z",
+                    "updated_at": "2023-05-30T14:01:09Z",
+                    "order": 2
+                },
+                {
+                    "id": "399af6e2-0531-4b06-b2af-04e2b65218aa",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=pw-firefox:latest@lambdatest tests/sample.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:11Z",
+                    "started_at": "2023-05-30T14:01:14Z",
+                    "updated_at": "2023-05-30T14:01:25Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "8ae2a6ff-8ea6-4a54-a108-8b055f161148",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:19Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:19Z",
+            "group_number": 16,
+            "stages": [
+                {
+                    "id": "aaead95f-1cae-4893-aadf-fd70498f3a36",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:16Z",
+                    "started_at": "2023-05-30T14:00:17Z",
+                    "updated_at": "2023-05-30T14:01:05Z",
+                    "order": 2
+                },
+                {
+                    "id": "fa984857-b621-4f5f-8035-3121f7a71143",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=MicrosoftEdge:latest:Windows10@lambdatest tests/pageTitle.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:07Z",
+                    "started_at": "2023-05-30T14:01:09Z",
+                    "updated_at": "2023-05-30T14:01:16Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "19d0bba1-56c5-4db7-bb63-8e81f3d4f724",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:31Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:31Z",
+            "group_number": 17,
+            "stages": [
+                {
+                    "id": "0e440345-7c54-4dc3-b003-05e3ba7b01dc",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:16Z",
+                    "started_at": "2023-05-30T14:00:17Z",
+                    "updated_at": "2023-05-30T14:01:16Z",
+                    "order": 2
+                },
+                {
+                    "id": "f73a35bc-03f5-48f2-87d8-45ea2ebc2165",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=chrome:108:Windows10@lambdatest tests/pageTitle.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:18Z",
+                    "started_at": "2023-05-30T14:01:20Z",
+                    "updated_at": "2023-05-30T14:01:29Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "a64050f0-dfcc-4c10-baa6-a3f69b1bc5a1",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:17Z",
+            "start_time": "2023-05-30T14:00:11Z",
+            "end_time": "2023-05-30T14:01:17Z",
+            "group_number": 18,
+            "stages": [
+                {
+                    "id": "528019ed-b608-4cbd-a9f0-239eebbdb6e7",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:17Z",
+                    "started_at": "2023-05-30T14:00:18Z",
+                    "updated_at": "2023-05-30T14:01:01Z",
+                    "order": 2
+                },
+                {
+                    "id": "a942b523-7b01-40fc-b6cb-44bc7be18d0a",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=pw-firefox:latest@lambdatest tests/pageTitle.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:03Z",
+                    "started_at": "2023-05-30T14:01:05Z",
+                    "updated_at": "2023-05-30T14:01:15Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "46b5f5e4-970d-461a-a8e4-2a0a5194b656",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:20Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:20Z",
+            "group_number": 19,
+            "stages": [
+                {
+                    "id": "59c0291d-78fe-4ce0-bb25-52d393601e90",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:16Z",
+                    "started_at": "2023-05-30T14:00:17Z",
+                    "updated_at": "2023-05-30T14:01:06Z",
+                    "order": 2
+                },
+                {
+                    "id": "2811f76b-7011-44b9-85be-9624b1b9b513",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=MicrosoftEdge:latest:Windows10@lambdatest tests/searchbox.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:08Z",
+                    "started_at": "2023-05-30T14:01:10Z",
+                    "updated_at": "2023-05-30T14:01:18Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "5bfdf2d6-4823-481a-83e4-51e9d2c59674",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:31Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:31Z",
+            "group_number": 20,
+            "stages": [
+                {
+                    "id": "4ec5f528-ab7a-4e72-b3a9-dccbeb2d0725",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:16Z",
+                    "started_at": "2023-05-30T14:00:18Z",
+                    "updated_at": "2023-05-30T14:01:16Z",
+                    "order": 2
+                },
+                {
+                    "id": "b3da0e49-9202-42d7-8714-e3ada554020e",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=chrome:108:Windows10@lambdatest tests/searchbox.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:18Z",
+                    "started_at": "2023-05-30T14:01:20Z",
+                    "updated_at": "2023-05-30T14:01:29Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "ebead5bf-76e4-4e89-8848-4d29418baf7f",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:23Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:23Z",
+            "group_number": 21,
+            "stages": [
+                {
+                    "id": "15c54387-14ff-43fa-b042-7dc56750a47f",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:17Z",
+                    "started_at": "2023-05-30T14:00:18Z",
+                    "updated_at": "2023-05-30T14:01:06Z",
+                    "order": 2
+                },
+                {
+                    "id": "ab325492-76b1-4e6e-95b2-16cee16613d6",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=pw-firefox:latest@lambdatest tests/searchbox.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:09Z",
+                    "started_at": "2023-05-30T14:01:11Z",
+                    "updated_at": "2023-05-30T14:01:21Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "3bab04b8-43c4-4f35-bcf2-17a5a7bffdf3",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:24Z",
+            "start_time": "2023-05-30T14:00:11Z",
+            "end_time": "2023-05-30T14:01:24Z",
+            "group_number": 22,
+            "stages": [
+                {
+                    "id": "232bfc89-9a1f-4fb4-b786-5d6fcd4935f5",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:17Z",
+                    "started_at": "2023-05-30T14:00:18Z",
+                    "updated_at": "2023-05-30T14:01:09Z",
+                    "order": 2
+                },
+                {
+                    "id": "c3fff71d-3c2a-4f7e-ab89-37366d29e8fb",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=MicrosoftEdge:latest:Windows10@lambdatest verifyMsg.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:12Z",
+                    "started_at": "2023-05-30T14:01:14Z",
+                    "updated_at": "2023-05-30T14:01:22Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "705e5189-121a-4280-9756-bb3031fc9ff7",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:31Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:31Z",
+            "group_number": 23,
+            "stages": [
+                {
+                    "id": "8a889ab7-cdae-4561-be29-fbdf6126149a",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-05-30T14:00:16Z",
+                    "started_at": "2023-05-30T14:00:18Z",
+                    "updated_at": "2023-05-30T14:01:16Z",
+                    "order": 2
+                },
+                {
+                    "id": "1f44bd44-238f-4f5d-9fc8-04316f6d8382",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "npx playwright test --project=chrome:108:Windows10@lambdatest verifyMsg.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-05-30T14:01:18Z",
+                    "started_at": "2023-05-30T14:01:21Z",
+                    "updated_at": "2023-05-30T14:01:29Z",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "id": "fda68291-3ee8-4211-bac6-d958cad9ab36",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-05-30T14:00:07Z",
+            "update_at": "2023-05-30T14:01:21Z",
+            "start_time": "2023-05-30T14:00:10Z",
+            "end_time": "2023-05-30T14:01:21Z",
+            "group_number": 24,
+            "stages": null
         }
     ]
 }

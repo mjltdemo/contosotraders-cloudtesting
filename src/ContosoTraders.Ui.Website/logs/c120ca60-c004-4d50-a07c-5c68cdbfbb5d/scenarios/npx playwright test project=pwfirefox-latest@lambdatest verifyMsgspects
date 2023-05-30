@@ -1,0 +1,11 @@
+
+Running 1 test using 1 worker
+
+  ✓  1 [pw-firefox:latest@lambdatest] › verifyMsg.spec.ts:8:7 › msg Validation › verify message on site (8.5s)
+
+  1 passed (9.3s)
+
+To open last HTML report run:
+
+  npx playwright show-report
+
