@@ -1,0 +1,65 @@
+
+[2mRunning [22m2[2m tests using [22m2[2m workers[22m
+
+  [31mx[39m  [2m2 [22m[31m[chrome:latest:Windows 10@lambdatest] › verifyMessage.spec.ts:8:7 › Message Validation › search box should be present[39m[2m (39.3s)[22m
+  [31mx[39m  [2m1 [22m[31m[chrome:109:Windows 10@lambdatest] › verifyMessage.spec.ts:8:7 › Message Validation › search box should be present[39m[2m (1.3m)[22m
+
+
+[31m  1) [chrome:latest:Windows 10@lambdatest] › verifyMessage.spec.ts:8:7 › Message Validation › search box should be present [39m
+
+    Error: locator.click: Browser has been closed
+
+       7 | test.describe('Message Validation', () => {
+       8 |   test('search box should be present', async ({ page }) => {
+    >  9 |     await page.getByText("(//img[@alt='iconimage'])[2]").click()
+         |                                                          ^
+      10 |     await expect(page).toHaveURL('http://localhost:3000/cart');
+      11 |   })
+      12 |
+
+    [2m    at D:\foreman\ContosoTraders.Ui.Website\tests\verifyMessage.spec.ts:9:58[22m
+
+[36m    attachment #1: screenshot (image/png) [2m──────────────────────────────────────────────────────────[22m[39m
+[36m    test-results\verifyMessage-Message-Validation-search-box-should-be-present-chrome-latest-Windows-10-lambdatest\test-failed-1.png[39m
+[36m    [2m────────────────────────────────────────────────────────────────────────────────────────────────[22m[39m
+
+[31m  2) [chrome:109:Windows 10@lambdatest] › verifyMessage.spec.ts:8:7 › Message Validation › search box should be present [39m
+
+    [31mTest timeout of 80000ms exceeded.[39m
+
+    Error: locator.click: Target closed
+    =========================== logs ===========================
+    waiting for getByText('(//img[@alt=\'iconimage\'])[2]')
+    ============================================================
+
+       7 | test.describe('Message Validation', () => {
+       8 |   test('search box should be present', async ({ page }) => {
+    >  9 |     await page.getByText("(//img[@alt='iconimage'])[2]").click()
+         |                                                          ^
+      10 |     await expect(page).toHaveURL('http://localhost:3000/cart');
+      11 |   })
+      12 |
+
+    [2m    at D:\foreman\ContosoTraders.Ui.Website\tests\verifyMessage.spec.ts:9:58[22m
+
+    Pending operations:
+      - browser.close at lambda.setup.ts:79:21
+
+
+[36m    attachment #1: screenshot (image/png) [2m──────────────────────────────────────────────────────────[22m[39m
+[36m    test-results\verifyMessage-Message-Validation-search-box-should-be-present-chrome-109-Windows-10-lambdatest\test-failed-1.png[39m
+[36m    [2m────────────────────────────────────────────────────────────────────────────────────────────────[22m[39m
+
+[36m    attachment #2: screenshot (image/png) [2m──────────────────────────────────────────────────────────[22m[39m
+[36m    test-results\verifyMessage-Message-Validation-search-box-should-be-present-chrome-109-Windows-10-lambdatest\test-failed-2.png[39m
+[36m    [2m────────────────────────────────────────────────────────────────────────────────────────────────[22m[39m
+
+[31m  2 failed[39m
+[31m    [chrome:latest:Windows 10@lambdatest] › verifyMessage.spec.ts:8:7 › Message Validation › search box should be present [39m
+[31m    [chrome:109:Windows 10@lambdatest] › verifyMessage.spec.ts:8:7 › Message Validation › search box should be present [39m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command Failed

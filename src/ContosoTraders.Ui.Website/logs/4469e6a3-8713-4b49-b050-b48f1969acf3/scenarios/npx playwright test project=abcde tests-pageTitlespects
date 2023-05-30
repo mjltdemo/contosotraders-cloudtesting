@@ -1,0 +1,35 @@
+
+[2mRunning [22m1[2m test using [22m1[2m worker[22m
+
+  [31mx[39m  [2m1 [22m[31m[abcde] › pageTitle.spec.ts:8:7 › Header Message Validation › verify Title of Page[39m[2m (1.7s)[22m
+
+
+[31m  1) [abcde] › pageTitle.spec.ts:8:7 › Header Message Validation › verify Title of Page [2m────────────[22m[39m
+
+    Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/
+    =========================== logs ===========================
+    navigating to "http://localhost:3000/", waiting until "load"
+    ============================================================
+
+      2 | import test from '../lambda.setup';
+      3 | test.beforeEach(async ({ page }) => {
+    > 4 |   await page.goto('http://localhost:3000/');
+        |              ^
+      5 | });
+      6 |
+      7 | test.describe('Header Message Validation', () => {
+
+    [2m    at D:\foreman\ContosoTraders.Ui.Website\tests\pageTitle.spec.ts:4:14[22m
+
+[36m    attachment #1: screenshot (image/png) [2m──────────────────────────────────────────────────────────[22m[39m
+[36m    test-results\pageTitle-Header-Message-Validation-verify-Title-of-Page-abcde\test-failed-1.png[39m
+[36m    [2m────────────────────────────────────────────────────────────────────────────────────────────────[22m[39m
+
+[31m  1 failed[39m
+[31m    [abcde] › pageTitle.spec.ts:8:7 › Header Message Validation › verify Title of Page [2m─────────────[22m[39m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command Failed

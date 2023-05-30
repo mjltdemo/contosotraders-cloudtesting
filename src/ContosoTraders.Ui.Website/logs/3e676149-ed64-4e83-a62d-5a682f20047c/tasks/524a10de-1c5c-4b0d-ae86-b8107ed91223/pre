@@ -1,0 +1,9 @@
+******************* npm install *******************
+npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but package-lock.json was generated for lockfileVersion@2. I'll try to do my best with it!
+npm ERR! cb() never called!
+
+npm ERR! This is an error with npm itself. Please report this error at:
+npm ERR!     <https://npm.community>
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ltuser/.npm/_logs/2023-05-30T12_52_04_482Z-debug.log

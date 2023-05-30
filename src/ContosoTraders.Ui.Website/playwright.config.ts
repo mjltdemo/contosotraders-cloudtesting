@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import { name } from 'msal/lib-commonjs/packageMetadata';
 
 /**
  * Read environment variables from file.
@@ -25,7 +26,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['list'],
-    ['html'],
+    ['html', { open: 'never'}],
     ...(process.env.CI ? [['github'] as ['github']] : []),
   ],
 
@@ -45,24 +46,27 @@ export default defineConfig({
     // Setup project
  //   { name: 'setup', testMatch: /.*\.setup\.ts/ },
     // Test project that requires authentication
-    {
-      name: "chrome:latest:Windows 10@lambdatest",
+   
+   {
+      name: "MicrosoftEdge:latest:Windows10@lambdatest",
       use: {
+        viewport: { width: 1280, height: 720 },
+      }
+    },
+    {
+      name: "chrome:108:Windows10@lambdatest",
+      use: {
+
         viewport: { width: 1280, height: 720 },
       },
     },
     {
-      name: "chrome:109:Windows 10@lambdatest",
+      name: "pw-firefox:latest@lambdatest",
       use: {
+
         viewport: { width: 1280, height: 720 },
       },
-    },
-    {
-      name: "chrome:108:Windows 10@lambdatest",
-      use: {
-        viewport: { width: 1280, height: 720 },
-      },
-    },
+    }
    /* {
       name: 'authenticated',
       testMatch: /.account\.ts/,

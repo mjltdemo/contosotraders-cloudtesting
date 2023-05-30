@@ -1,0 +1,11 @@
+Error: Project(s) "chrome:latest@lambdatest" not found. Available named projects: "chrome:108:Windows10@lambdatest"
+
+
+
+
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command Failed

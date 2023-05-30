@@ -14,7 +14,7 @@ postDirectives:
     workingDirectory: ""
 runson: win
 autosplit: true
-concurrency: 3
+concurrency: 1
 testDiscovery:
     autosubset: true
     command: grep -lr 'describe' tests -ir --include=*spec.ts
@@ -22,10 +22,8 @@ testDiscovery:
     type: raw
 testRunnerCommand: npx playwright test $test
 globalTimeout: 90
-tunnelOpts:
-    global: true
 tunnelNames:
-    - fVQcYIvtYSQoHTMm
+    - dkJmZTvFYYlQfsVG
 testSuiteTimeout: 90
 testSuiteStep: 90
 cacheDirectories:
@@ -33,7 +31,7 @@ cacheDirectories:
 cacheKey: '{{ checksum "package-lock.json" }}'
 retryOnFailure: true
 maxRetries: 1
-jobID: 1a8a428f-8c61-4799-b58d-af6489b63614
+jobID: 7d1588ff-e091-4f62-8dd1-84a6ce6192b6
 codeDirectory: ContosoTraders.Ui.Website
 framework:
     name: ""

@@ -1,0 +1,3 @@
+tests/cart.spec.ts
+tests/pageTitle.spec.ts
+tests/searchbox.spec.ts

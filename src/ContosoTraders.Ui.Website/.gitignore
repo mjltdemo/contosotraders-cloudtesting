@@ -24,9 +24,7 @@ appsettings.Development.json
 
 # Playwright tests
 /test-results/
-/playwright-report/
 /playwright/.cache/
 /test-results/
-/playwright-report/
 /playwright/.cache/
 /.auth/

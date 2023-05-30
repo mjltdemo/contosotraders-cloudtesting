@@ -1,0 +1,13 @@
+
+[2mRunning [22m2[2m tests using [22m2[2m workers[22m
+
+  [32mok[39m [2m1 [22m[chrome:latest:Windows 10@lambdatest] › verifymsg.spec.ts:12:9 › Message Validation › verify text "This is a demo site"[2m (7.5s)[22m
+  [32mok[39m [2m2 [22m[chrome:109:Windows 10@lambdatest] › verifymsg.spec.ts:12:9 › Message Validation › verify text "This is a demo site"[2m (16.8s)[22m
+
+[32m  2 passed[39m[2m (18.3s)[22m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command succeded

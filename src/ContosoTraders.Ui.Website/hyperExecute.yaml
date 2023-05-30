@@ -6,7 +6,7 @@ runson: win
 retryOnFailure: true
 maxRetries: 1
 autosplit: true
-concurrency: 4
+concurrency: 1
 tunnel: true
 pre:
   - npm install
@@ -19,10 +19,3 @@ testDiscovery:
   mode: dynamic
   command : grep -lr 'describe' tests -ir --include=*spec.ts
 testRunnerCommand: npx playwright test $test
-post:
-mergeArtifacts: true
-uploadArtefacts:
-  [{
-    "name": "reports",
-    "path": ["reports\\"]
-  }]

@@ -1,0 +1,33 @@
+
+Running 1 test using 1 worker
+
+  ✘  1 [firefox:108:Windows10@lambdatest] › searchbox.spec.ts:8:7 › Search Box Validation › search box should be present (196ms)
+
+
+  1) [firefox:108:Windows10@lambdatest] › searchbox.spec.ts:8:7 › Search Box Validation › search box should be present 
+
+    Requested browser:: firefox not supported: browserType.connect: Requested browser:: firefox not supported
+
+       at ../lambda.setup.ts:60
+
+      58 |       );
+      59 |
+    > 60 |       const browser = await chromium.connect({
+         |                                      ^
+      61 |         wsEndpoint: `wss://cdp.lambdatest.com/playwright?capabilities=${encodeURIComponent(
+      62 |           JSON.stringify(capabilities)
+      63 |         )}`,
+
+        at Object.page (/home/ltuser/foreman/ContosoTraders.Ui.Website/lambda.setup.ts:60:38)
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/searchbox-Search-Box-Validation-search-box-should-be-present-firefox-108-Windows10-lambdatest/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [firefox:108:Windows10@lambdatest] › searchbox.spec.ts:8:7 › Search Box Validation › search box should be present 
+
+To open last HTML report run:
+
+  npx playwright show-report
+

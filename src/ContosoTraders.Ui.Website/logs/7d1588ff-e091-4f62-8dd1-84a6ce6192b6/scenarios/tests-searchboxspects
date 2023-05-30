@@ -1,0 +1,14 @@
+
+[2mRunning [22m3[2m tests using [22m2[2m workers[22m
+
+  [32mok[39m [2m1 [22m[MicrosoftEdge:latest:Windows10@lambdatest] › searchbox.spec.ts:8:7 › Search Box Validation › search box should be present[2m (7.5s)[22m
+  [32mok[39m [2m2 [22m[chrome:108:Windows10@lambdatest] › searchbox.spec.ts:8:7 › Search Box Validation › search box should be present[2m (16.9s)[22m
+  [32mok[39m [2m3 [22m[pw-firefox:latest@lambdatest] › searchbox.spec.ts:8:7 › Search Box Validation › search box should be present[2m (20.8s)[22m
+
+[32m  3 passed[39m[2m (30.7s)[22m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command succeded

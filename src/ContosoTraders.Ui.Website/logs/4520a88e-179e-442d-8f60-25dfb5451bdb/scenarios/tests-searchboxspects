@@ -1,0 +1,12 @@
+
+[2mRunning [22m2[2m tests using [22m2[2m workers[22m
+
+[1A[2K[1/2] [chrome:109:Windows 10@lambdatest] › searchbox.spec.ts:8:7 › Search Box Validation › search box should be present
+[1A[2K[2/2] [chrome:latest:Windows 10@lambdatest] › searchbox.spec.ts:8:7 › Search Box Validation › search box should be present
+[1A[2K[32m  2 passed[39m[2m (27.9s)[22m
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Command succeded

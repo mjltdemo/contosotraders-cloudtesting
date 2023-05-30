@@ -71,7 +71,7 @@ import { getCartQuantity } from "./actions/actions";
       <div className={`App ${props.theme ? 'dark' : 'light' }`}>
         <Fragment>
           <div className="mainHeader">
-            <HeaderMessage type="warning" icon={warningIcon} message="This demo site for Testing Purpose"/>
+            <HeaderMessage type="warning" icon={warningIcon} message="Memorial Sale Week is Live !"/>
             <Appbar />
             {location.pathname === '/' || location.pathname === '/new-arrivals' ?
               <Header/>
