@@ -29,4 +29,4 @@ jobs:
               npm run start &
               curl https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute -o hyperexecute
               chmod u+x hyperexecute
-            ./hyperexecute --user gagandeepb --key wzgRUvmhiGodczTuOWhY0IkITni78467mDrYTFzbFwAMlMqaO7  --config hyperexecute-matrix.yaml
+            ./hyperexecute --user gagandeepb --key KZCghqXcnDAkO3kuErqkRKoQGgzXzzV95L4gJSf7dIaJPpCzpL  --config hyperexecute-matrix.yaml
