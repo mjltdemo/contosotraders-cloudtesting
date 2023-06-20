@@ -3,7 +3,7 @@ version: "0.1"
 retryOnFailure: true
 maxRetries: 1
 matrix:
-  os: [win,linux, mac]
+  os: [win,linux,mac]
   browser: [
 
     "MicrosoftEdge:latest:Windows10@lambdatest",
