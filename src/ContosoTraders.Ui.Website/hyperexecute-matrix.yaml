@@ -19,6 +19,16 @@ matrix:
     ]
 runson: ${matrix.os}
 tunnel: true
+mergeArtifacts: true
+report: true
+partialReports:
+  frameworkName: playwright
+  location: playwright-report
+  type: html
+  email:
+    to:
+      - mudassars@lambdatest.com
+      - mohitj@lambdatest.com
 pre:
   - npm install
   - npx playwright install
@@ -27,3 +37,5 @@ cacheDirectories:
   - node_modules
 testSuites:
   - npx playwright test --project=$browser $methods 
+
+  
