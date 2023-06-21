@@ -71,7 +71,7 @@ import { getCartQuantity } from "./actions/actions";
       <div className={`App ${props.theme ? 'dark' : 'light' }`}>
         <Fragment>
           <div className="mainHeader">
-            <HeaderMessage type="warning" icon={warningIcon} message="Memorial Sale Week is Live !"/>
+            <HeaderMessage type="warning" icon={warningIcon} message="EID Sale Week is Live !"/>
             <Appbar />
             {location.pathname === '/' || location.pathname === '/new-arrivals' ?
               <Header/>
@@ -115,6 +115,7 @@ import { getCartQuantity } from "./actions/actions";
     );
   }
 // }
+//
 
 const mapStateToProps = (state) => { 
   return { 

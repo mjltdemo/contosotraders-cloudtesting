@@ -6,8 +6,14 @@ test.beforeEach(async ({ page }) => {
 
 test.describe('msg Validation', () => {
   test('verify message on site', async ({ page }) => {
-    await page.getByText("Memorial Sale Week is Live !")
+    await page.getByText("EID Sale Week is Live !")
     await expect(page).toBeTruthy();
   })
+
+//   test('verify message on site', async ({ page }) => {
+//     await page.getByText("Memorial Sale Week is Live !")
+//     await expect(page).toBeTruthy();
+//   })
+
 
 });
